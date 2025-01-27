@@ -33,3 +33,4 @@ class HashTable:
             if pair[0] == key:  # Key found
                 del self.table[index][i]  # Remove the pair
                 return
+            
